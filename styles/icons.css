@@ -1,0 +1,228 @@
+.icon {
+    display: inline-block;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+}
+
+.burger-i {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/burger.svg) no-repeat center;
+    mask: url(../images/icons/burger.svg) no-repeat center;
+}
+
+.close-i {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/close.svg) no-repeat center;
+    mask: url(../images/icons/close.svg) no-repeat center;
+}
+
+.facebook-i {
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/facebook.svg) no-repeat center;
+    mask: url(../images/icons/facebook.svg) no-repeat center;
+}
+
+.fire-i {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/fire.svg) no-repeat center;
+    mask: url(../images/icons/fire.svg) no-repeat center;
+}
+
+.youtube-i {
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/youtube.svg) no-repeat center;
+    mask: url(../images/icons/youtube.svg) no-repeat center;
+}
+
+.instagram-i {
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/instagram.svg) no-repeat center;
+    mask: url(../images/icons/instagram.svg) no-repeat center;
+}
+
+.linkedin-i {
+    background-color: #fff;
+    -webkit-mask: url(../images/icons/linkedin.svg) no-repeat center;
+    mask: url(../images/icons/linkedin.svg) no-repeat center;
+}
+
+.chart-i {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    background: url(../images/icons/chart.svg) no-repeat center;
+}
+
+.code-i {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    background: url(../images/icons/code.svg) no-repeat center;
+    background-size: contain;
+}
+
+.pen-i {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    background: url(../images/icons/pen.svg) no-repeat center;
+    background-size: contain;
+}
+
+.designtools-i {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    background: url(../images/icons/designtools.svg) no-repeat center;
+    background-size: contain;
+}
+
+.code-i-wrapper,
+.chart-i-wrapper,
+.pen-i-wrapper,
+.designtools-i-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 23px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.designtools-i-wrapper,
+.code-i-wrapper {
+    background: rgba(242, 98, 43, 0.1);
+}
+
+.chart-i-wrapper {
+    background: rgba(115, 92, 255, 0.1);
+}
+
+.pen-i-wrapper {
+    background: rgba(255, 175, 22, 0.1);
+}
+
+.award-i {
+    background: #292D32;
+    -webkit-mask: url(../images/icons/award.svg) no-repeat center;
+    mask: url(../images/icons/award.svg) no-repeat center;
+}
+
+.book-i {
+    background: #292D32;
+    -webkit-mask: url(../images/icons/book.svg) no-repeat center;
+    mask: url(../images/icons/book.svg) no-repeat center;
+}
+
+.briefcase-i {
+    background: #292D32;
+    -webkit-mask: url(../images/icons/briefcase.svg) no-repeat center;
+    mask: url(../images/icons/briefcase.svg) no-repeat center;
+}
+
+.category-i {
+    background: #F2622B;
+    -webkit-mask: url(../images/icons/category.svg) no-repeat center;
+    mask: url(../images/icons/category.svg) no-repeat center;
+}
+
+.calendar-i {
+    background: #735CFF;
+    -webkit-mask: url(../images/icons/calendar.svg) no-repeat center;
+    mask: url(../images/icons/calendar.svg) no-repeat center;
+}
+
+.calendar-number-i {
+    background: #735CFF;
+    -webkit-mask: url(../images/icons/calendar-number.svg) no-repeat center;
+    mask: url(../images/icons/calendar-number.svg) no-repeat center;
+}
+
+.timer-i {
+    background: #735CFF;
+    -webkit-mask: url(../images/icons/timer.svg) no-repeat center;
+    mask: url(../images/icons/timer.svg) no-repeat center;
+}
+
+.slider-vertical-i {
+    background: #735CFF;
+    -webkit-mask: url(../images/icons/slider-vertical.svg) no-repeat center;
+    mask: url(../images/icons/slider-vertical.svg) no-repeat center;
+}
+
+.tick-circle-i {
+    background: #735CFF;
+    -webkit-mask: url(../images/icons/tick-circle.svg) no-repeat center;
+    mask: url(../images/icons/tick-circle.svg) no-repeat center;
+}
+
+.export-i {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background: #292D32;
+    -webkit-mask: url(../images/icons/export.svg) no-repeat center;
+    mask: url(../images/icons/export.svg) no-repeat center;
+}
+
+.clock-i {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    background: #FFAF16;
+    -webkit-mask: url(../images/icons/clock.svg) no-repeat center;
+    mask: url(../images/icons/clock.svg) no-repeat center;
+}
+
+.group-i {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    background: #FFAF16;
+    -webkit-mask: url(../images/icons/group.svg) no-repeat center;
+    mask: url(../images/icons/group.svg) no-repeat center;
+}
+
+.star-i {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    background: #FFAF16;
+    -webkit-mask: url(../images/icons/star.svg) no-repeat center;
+    mask: url(../images/icons/star.svg) no-repeat center;
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .code-i-wrapper,
+    .chart-i-wrapper,
+    .pen-i-wrapper,
+    .designtools-i-wrapper {
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        padding: 18.4px;
+    }
+
+    .chart-i,
+    .code-i,
+    .pen-i,
+    .designtools-i {
+        width: 27.2px;
+        min-width: 27.2px;
+        height: 27.2px;
+    }
+}

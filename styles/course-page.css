@@ -1,0 +1,400 @@
+.wa-course-header-tags {
+
+    display: flex;
+    position: relative;
+    max-width: min-content;
+}
+
+.wa-course-header-tags [class^="ui-text"] {
+    transform: rotate(-2deg);
+}
+
+.wa-course-header-tags .ui-text-medium-500 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 12px;
+
+    color: #FFFFFF;
+    background: #F2622B;
+    border-radius: 56px;
+}
+
+.wa-course-header-tags .ui-text-small-bold {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px 10px 12px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    border-radius: 56px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(80%) rotate(-2deg);
+}
+
+.wa-course-details-section {
+    position: relative;
+    padding-bottom: 48px;
+    margin-top: -48px;
+    display: flex;
+    gap: 20px;
+}
+
+.wa-buy-course-wrapper {
+    position: relative;
+}
+
+.wa-buy-course-detail-card {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(46, 42, 57, 0.08);
+    border-radius: 20px;
+
+    transition: 1s;
+}
+
+.wa-buy-course-detail-card [class^="ui-"] {
+    white-space: nowrap;
+}
+
+.wa-course-sale-percentage.ui-text-big-bold {
+    padding: 4px 12px;
+    background: rgba(255, 175, 22, 0.1);
+    border-radius: 53px;
+    color: #FFAF16;
+}
+
+.wa-buy-course-detail-card .ui-text-contained .icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    -webkit-mask-size: 36px;
+    mask-size: 36px;
+}
+
+/*  */
+
+.wa-course-details-wrapper {
+    display: flex;
+    gap: 64px;
+    flex-flow: column;
+}
+
+.wa-employment-info-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(46, 42, 57, 8%);
+    border-radius: 20px;
+}
+
+
+.wa-about-course {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.wa-about-course .ui-h2 {
+    padding-bottom: 20px;
+}
+
+.wa-course-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+
+    background: #FAFAFA;
+    border-radius: 20px;
+}
+
+.wa-course-info-card .text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.wa-course-info-card .text-wrapper [class^='ui-text'] {
+    color: #2E2A39;
+    font-feature-settings: initial;
+}
+
+.wa-course-info-card .text-wrapper .icon {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    background: #735CFF;
+    -webkit-mask-size: 20px;
+    mask-size: 20px;
+    align-self: start;
+}
+
+.wa-course-syllabus-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.wa-course-syllabus-header .ui-h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wa-course-syllabus-header .wa-btn {
+    align-self: end;
+}
+
+.wa-accordion-list {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.wa-accordion .accordion-item {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.wa-accordion.expanded .accordion-item {
+    box-shadow: 0px 10px 30px rgba(46, 42, 57, 8%);
+    border-radius: 20px;
+}
+
+.wa-accordion .accordion-item .wa-accordion-btn.collapsed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+
+    background: #FAFAFA;
+}
+
+
+.wa-accordion .accordion-item .wa-accordion-btn {
+    background: #FFFFFF;
+    padding: 32px 32px 16px;
+    border-bottom: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url(../images/icons/add.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/icons/minus.svg);
+    transform: none;
+    box-shadow: none;
+    width: 24px;
+    height: 24px;
+}
+
+.wa-accordion .accordion-item .accordion-collapse {
+    background: #FFFFFF;
+}
+
+.wa-accordion .accordion-item .accordion-collapse .ui-text,
+.wa-accordion .accordion-item .accordion-collapse ul {
+    padding: 0 32px 32px;
+}
+
+.wa-accordion .accordion-item .accordion-collapse ul {
+    list-style-type: initial;
+}
+
+.wa-accordion .accordion-item .accordion-collapse {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E2A39;
+}
+
+.wa-course-syllabus-list {
+    position: relative;
+}
+
+.wa-course-syllabus-list .wa-btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 75px 0 55px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    position: absolute;
+    bottom: 0;
+}
+
+.wa-course-syllabus-list .wa-btn-wrapper .wa-btn {
+    padding: 20px 74px;
+}
+
+.wa-certificate-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 32px;
+    gap: 30px;
+    background: #735CFF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.wa-certificate-section img {
+    filter: drop-shadow(0px 0px 80px rgba(46, 42, 57, 0.3));
+}
+
+.wa-faq-section {
+    position: relative;
+    border-radius: 48px;
+    background: #FFFFFF;
+    margin-top: -64px;
+    margin-bottom: -48px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    z-index: 1;
+}
+
+.wa-faq-section .ui-h2 {
+    padding-bottom: 48px;
+}
+
+.wa-register-section {
+    position: relative;
+    background: #2E2A39;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.wa-register-section .d-flex.flex-column.gap-12 {
+    max-width: 525px;
+}
+
+.wa-register-section .wa-form-wrapper {
+    background: #433F4D;
+    border-radius: 20px;
+
+    min-width: 522px;
+    padding-top: 25%;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .wa-course-details-section {
+        flex-flow: column-reverse;
+    }
+
+    .wa-register-section .container.d-flex {
+        flex-flow: column;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wa-buy-course-detail-card {
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .wa-employment-info-wrapper {
+        padding: 24px 20px;
+        gap: 16px;
+    }
+
+    .wa-course-syllabus-header {
+        padding-bottom: 21px;
+    }
+
+    .wa-course-syllabus-header .ui-h2 {
+        font-size: 24px;
+    }
+
+    .wa-course-syllabus-header .wa-btn {
+        align-self: center;
+    }
+
+    .wa-accordion .accordion-item .wa-accordion-btn.collapsed {
+        padding: 20px;
+    }
+
+    .wa-accordion .accordion-item .wa-accordion-btn {
+        padding: 20px 20px 12px;
+    }
+
+    .wa-accordion .accordion-item .accordion-collapse .ui-text {
+        padding: 0 20px 20px;
+    }
+
+    .wa-accordion .accordion-item .accordion-collapse ul {
+        padding: 0 20px 20px 32px;
+    }
+
+    .wa-course-syllabus-list .wa-btn-wrapper .wa-btn {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+    }
+
+    .wa-certificate-section {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .wa-certificate-section .gap-16 {
+        gap: 8px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .wa-buy-course-detail-card .ui-text-big-bold,
+    .wa-course-info-card .ui-text-big-bold {
+        font-size: 20px;
+    }
+
+    .wa-buy-course-detail-card .d-flex.flex-wrap.flex-md-nowrap.gap-16 {
+        gap: 8px;
+    }
+
+    .wa-course-details-wrapper {
+        gap: 48px;
+    }
+
+    .wa-course-details-section.container,
+    .wa-register-section .container.d-flex {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .wa-register-section .wa-form-wrapper {
+        min-width: 100%;
+    }
+
+    .wa-faq-section {
+        border-radius: 32px;
+    }
+}

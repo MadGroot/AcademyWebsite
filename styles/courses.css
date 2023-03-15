@@ -1,0 +1,651 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:200,300,400,500,600,700,800');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.banner_section{
+    padding: 0 !important;
+    
+}
+.banner_div{
+    background-color: #735CFF;
+    margin: 0 10px !important;
+    padding: 0 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 120px;
+}
+.banner-price{
+    padding: 14px 20px;
+    transform: rotate(-2deg);
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #2E2A39;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 56px;
+}
+.banner-discount{
+    padding: 14px 20px;
+    transform: rotate(-2deg);
+    font-family: 'FiraGO';
+    font-size: 24px;
+    line-height: 130%;
+    color: #2E2A39;
+    background-color: #ffffff;
+    max-width: 302px;
+    border-radius: 56px;
+}
+.discount-price{
+    padding: 14px 20px;
+    background-color: rgba(255, 175, 22, 0.1);
+    border-radius: 53px;
+    transform: rotate(-2deg);
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFAF16;
+}
+.discount-old-price{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #2E2A39;
+    opacity: 0.4;
+}
+.banner_text-wrapper{
+    padding: 50px 0 140px 0 !important;
+}
+.banner-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.banner-description{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.banner_img-wrapper{
+    background-image: url("../images/background\ pattern.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFAF16;
+    border-radius: 40px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-feature-settings: 'case' on;
+    border: unset;
+    margin-top: 40px;
+}
+.banner_img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.banner_img-wrapper img{
+    max-height: 496px;
+}
+.banner_video-button{
+    position: absolute;
+    padding: 15px 30px;
+    background-color: #F2622B;
+    box-shadow: 0px 0px 30px rgba(76, 94, 120, 0.12);
+    border-radius: 44px;
+    transform: rotate(2deg);
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    font-feature-settings: 'case' on;
+    color: #FFFFFF;
+    border: unset;
+    top: 346px;
+    left: 49.6%;
+    z-index: 1;
+}
+.banner_name-button{
+    position: absolute;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px rgba(76, 94, 120, 0.12);
+    border-radius: 44px;
+    transform: rotate(-2deg);
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    font-feature-settings: 'case' on;
+    color: #2E2A39;
+    border: unset;
+    top: 387px;
+    left: 29%;
+    z-index: 0;
+}
+.courses-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    font-feature-settings: 'case' on;
+    color: #2E2A39;
+    margin-bottom: 50px;
+}
+.courses-title-mobile{
+    display: none;
+}
+.courses-section{
+    margin-top: 100px;
+    padding: 0 80px 48px 80px !important;
+    border-radius: 48px;
+}
+.left-price{
+    padding: 9px 16px;
+    background: #FFFFFF;
+    border-radius: 66px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E2A39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.old-price{
+    text-decoration-line: line-through;
+    color: #2E2A39;
+    opacity: 0.4;
+    margin-left: 10px;
+}
+.right-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px 10px 12px;
+    background: #FFFFFF;
+    border-radius: 56px;
+}
+.right_price-p{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E2A39;
+    margin: 0;
+}
+.right-price img{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.courses_block-prices{
+    display: flex;
+    justify-content: space-between;
+}
+.courses_block{
+    padding: 10px;
+    background-image: url("../images/Image\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 28px;
+    /* max-width: 416px !important; */
+    margin-bottom: 20px;
+}
+.courses-description{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    margin-top: 180px;
+}
+.lecturer-part{
+    display: flex;
+}
+.lecturer-part img{
+    width: 16px;
+    height: 16px;
+}
+.lacturer-name{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2E2A39;
+    margin-left: 4px;
+}
+.light-img{
+    opacity: 0.4;
+    margin-left: 16px;
+}
+.course-name{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2E2A39;
+    opacity: 0.4;
+}
+.courses-card-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2E2A39;
+    margin: 16px 0 8px 0;
+}
+.courses-card-text{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E2A39;
+}
+.courses-block-buttons{
+    display: flex;
+}
+.courses-block-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 20px 16px 16px;
+    border: 1px solid #E6E6E6;
+    border-radius: 46px;
+    margin-right: 8px;
+}
+.courses-block-button p{
+    margin:0;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2E2A39;
+}
+.courses-block-button img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.courses_block-none{
+    display: none;
+}
+.textDec {
+    text-decoration: none;
+}
+.more-button{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 20px 40px;
+    background: #FFAF16;
+    border-radius: 40px;
+    margin-top: 48px;
+    border: unset;
+    color: #ffffff;
+}
+.slider-wrapper{
+    padding: 64px 80px;
+    background-color: #2E2A39;
+}
+.slider-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.slider-card{
+    padding-top: 24px;
+    padding: 24px 8px 8px 8px;
+    background-color: #FFF1D6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-lecturer-img{
+    width: 190.27px;
+    height: 249px;
+}
+.slider_text-box{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 20px;
+}
+.slide-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2E2A39;
+}
+.slider-description{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(46, 42, 57, 0.6);
+    margin-top: 8px;
+}
+
+/* lecturers css */
+
+.lecturer-card{
+    margin-bottom: 20px;
+}
+.lecturers-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    font-feature-settings: 'case' on;
+    color: #2E2A39;
+    margin-bottom: 50px;
+}
+.lecturer-block-none{
+    display: none;
+}
+
+/* lecturer css */
+.lecturer-banner-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.lecturer-banner-subtitle {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.lecturer-banner-description{
+    max-width: 570px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.lecturer-banner-description-mobile{
+    display: none;
+}
+.lecturer-banner-button{
+    display: none;
+}
+.lecturer-socialmedia-icons-wrapper{
+    max-width: 228px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.lecturer-discriotion{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(46, 42, 57, 0.7);
+}
+.lecturer-description-span{
+    margin-top: 30px;
+}
+.lecturer-discriotion-bottom{
+    margin-top: 30px;
+}
+.lecturers-slider-title{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #2E2A39;
+    margin-top: 64px;
+}
+.lecturer-slider-wrapper{
+    padding-left: 80px;
+}
+.lecturer-courses-section{
+    margin-top: 100px;
+    padding: 0 80px 48px 80px !important;
+    border-radius: 48px;
+}
+@media (max-width: 550px){
+    .banner_div{
+        margin: 0 4px;
+        padding: 0 20px;
+    }
+    .banner_img-wrapper img{
+        max-height: 381.76px;
+    }
+    .banner_video-button{
+        top: 175px;
+        left: 47.6%;
+    }
+    .banner_name-button{ 
+        top: 220px;
+        left: 8%;
+    }
+    .courses-title{
+        display: none;
+    }
+    .courses-title-mobile{
+        display: block;
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+        color: #2E2A39;
+        margin-bottom: 32px;
+    }
+    .courses-section{
+        margin-top: 64px;
+        padding: 0 8px !important;
+    }
+    .banner_text-wrapper{
+        padding: 122px 0 56px 0 !important;
+    }
+    .banner-title{
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .banner_button{
+        position: absolute;
+        z-index: 3;
+        top: 75%;
+        left: 14%;
+    }
+    .banner-description{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .slider-wrapper{
+        padding: 32px 8px;
+        background-color: #2E2A39;
+    }
+
+    /* lecturers css */
+    .lecturers-title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    /* lecturer css */
+
+    .lecturer-banner-title{
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .lecturer-banner-subtitle {
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .lecturer-banner-description-mobile{
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .lecturer-slider-wrapper{
+        padding-left: 24px;
+    }
+    .lecturers-slider-title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+    }
+    .lecturer-courses-section{
+        margin-top: 64px;
+        padding: 0 24px  !important;
+    }
+    .lecturer-banner-button{
+        display: block;
+        top: 78%;
+        left: 15%;
+    }
+}
+
+
+@media (max-width: 430px){
+    .banner_button{
+        position: absolute;
+        z-index: 3;
+        top: 81%;
+        left: 15%;
+    }
+    .lecturer-banner-button{
+        display: block;
+        top: 81%;
+        left: 15%;
+    }
+    /* .lecturer-banner-button{
+        display: block;
+        
+    } */
+}
+@media (max-width: 387px){
+    .lecturer-banner-button{
+        display: block;
+        top: 84%;
+        left: 15%;
+    }
+}
+@media (max-width: 383px){
+    .lecturer-banner-button{
+        display: block;
+        top: 89%;
+        left: 15%;
+    }
+}
