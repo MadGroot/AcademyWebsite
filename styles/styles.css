@@ -1671,3 +1671,30 @@
         width: 100%;
     }
 }
+
+
+
+
+
+/* scrolling hidden*/
+
+.hide-on-scroll {
+    display: block; 
+  }
+  
+  body {
+    height: 2000px; 
+  }
+  
+  
+  body.scrolled .hide-on-scroll {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .hide-on-scroll {
+        display: none;
+    }
+  }
+    
+  

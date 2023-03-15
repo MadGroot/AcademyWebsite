@@ -11,10 +11,68 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+
     <title>Courses</title>
     <link rel="icon" href="../images/academy-png-2.png">
 </head>
 <body>
+    <header class="wa-header">
+        <nav class="navbar wa-navbar navbar-expand-sm hide-on-scroll">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo-primary"></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#wa-navbar-offcanvas" aria-controls="wa-navbar-offcanvas">
+                    <span class="icon burger-i"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="wa-navbar-offcanvas">
+                    <div class="offcanvas-header">
+                        <div class="logo-primary"></div>
+                        <button type="button" class="wa-btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-sm-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./home.html">მთავარი</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./courses.html">კურსები</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./lecturers.html">ლექტორები</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./Blog.html">ბლოგი</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-footer wa-social-medias">
+                        <a href="#" class="wa-btn wa-btn-outlined wa-btn-round">
+                            <div class="icon facebook-i"></div>
+                        </a>
+                        <a href="#" class="wa-btn wa-btn-outlined wa-btn-round">
+                            <div class="icon youtube-i"></div>
+                        </a>
+                        <a href="#" class="wa-btn wa-btn-outlined wa-btn-round">
+                            <div class="icon instagram-i"></div>
+                        </a>
+                        <a href="#" class="wa-btn wa-btn-outlined wa-btn-round">
+                            <div class="icon linkedin-i"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+
     <section class="container-fluid banner_section">
             <div class="row justify-content-between banner_div">
                 <div class="banner_text-wrapper col-xxl-6 col-xl-7">
@@ -40,6 +98,7 @@
             </div>
         </div>
     </section>
+    </header>
     
     <section class="container-xxl courses-section">
         <p class="courses-title">პოპულარული კურსები</p>
@@ -803,9 +862,21 @@
         moreButton.addEventListener("click",onMoreButtonClick );
         // console.log(courses)
 
+
+        // scrolling
+
+
+        window.addEventListener("scroll", function() {
+  
+            if (window.scrollY > 0) {
+                document.body.classList.add("scrolled");
+            } else {
+                document.body.classList.remove("scrolled");
+            }
+        }); 
+
     </script>
 
-   
 
 </body>
 </html>

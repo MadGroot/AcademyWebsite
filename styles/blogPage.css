@@ -2,7 +2,7 @@
 
 
 .section-wrapper{
-    margin-top: 74px;   
+    margin-top: 174px;   
 }
 /* first section */
 .date-wrapper{
@@ -200,6 +200,7 @@ button.splide__pagination__page.is-active {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 48px;
+    margin-top: 10px;
 }
 .allLink a {
     margin-right: 24px;
@@ -257,7 +258,7 @@ button.splide__pagination__page.is-active {
     margin-left: 10px;
 }
 .dateBtn {
-   
+   margin-top: 10px;
     Padding: 16px 24px;
     border: 1px solid #E8E8E8;
     border-radius: 46px;
